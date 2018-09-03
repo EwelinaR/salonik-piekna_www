@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl PL">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Salonik - galeria</title>
+	
+	<meta name="description" content="Salonik zdrowia i urody Elżbiety Kryger jest najlepszym salonikiem ever!!" />
+	<meta name="keywords" content="gabinet kosmetyczny, salonik zdrowia i urody, Elżbieta Kryger, kosmetyki, kosmetyczka Bydgoszcz, kosmetyczka Fordon, makijaż"/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'/>					<!--niepotrzebne usunąć-->
+	<link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css?family=Bilbo' rel='stylesheet'/>
+
+	<link rel="icon" href="images/flower.jpg" type="image/x-icon"/>
+    <script src="javaScript.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="o_firmie-style.css" type="text/css"/>
+
+	<script>
+	
+	</script>
+
+</head>
+<body>
+		<nav id="head">
+		<div class="center">
+			<div class="menu_cell"><a href="index.html">HOME</a></div>
+			<div class="between_menu_cells"></div>
+			<div class="menu_cell"><a href="o_firmie.html"  id="choosen_menu">O FIRMIE</a></div>
+			<div class="between_menu_cells"></div>
+			<div class="menu_cell"><a href="galery.html">GALERIA</a></div>
+			<div class="between_menu_cells"></div>
+			<div class="menu_cell"><a href="cennik.html">CENNIK</a></div>
+		</div>
+	</nav>
+	<section>
+	
+	
+	<div class="history">
+		<h1>HISTORIA</h1>
+		<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;Właścicielka ma 15 lat praktyki w zawodzie technikia fizjoterapii. 
+		To doświadczenie, szkoła kosmetyczna, praca w dwóch salonach fryzjersko-kosmetycznych oraz doświadczenia w marketingu kosmetycznym zachęciły i dały odwagę do otwarcia samodzielnej działalności w zawodzie kosmetyczki. 
+		Gabinet powstał w roku 2001. 
+		Po latach gabinet rozwijał się przez dodawanie do zakresu usług coraz to nowsze zabiegi i technologie. 
+		<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;Zdolności artystyczne właścicielki dopełniają całości. 
+		
+		
+		</p>
+	</div>
+	
+	<div id="photos">
+	
+	<img src="images/historia1.jpg" />
+	<!--<img src="images/z1.jpg" />
+	<img src="images/z1.jpg" />
+	<img src="images/z1.jpg" />-->
+	</div>
+	
+	
+	<div id="googleMap"></div>
+
+	
+	<div id="adress">
+	<h1>ADRES</h1>
+		<p>		
+			Ulica Sabały 4/4 <br/>
+			pawilon handlowo usługowy</p><br/>
+			<p>mail: ela@wp.pl</p><br/>
+			<p>telefon: 508&nbsp;957&nbsp;750</p><br/>
+		<a href="https://web.facebook.com/profile.php?id=100008215270964"  target="_blank">facebook</a>
+
+	</div>
+	
+	<h3>Certyfikaty Elżbiety Kryger:</h3>
+	<div class="certificaties">
+			<img style="position:absolute; z-index:-1; height:250px; margin:0; padding:0;" src="images/tlo1.jpg"/>
+
+		<img src="images/certificaties/Elzbieta1.jpg"/>
+		<img src="images/certificaties/Elzbieta2.jpg"/>
+		<img src="images/certificaties/Elzbieta3.jpg"/>
+		<img src="images/certificaties/Elzbieta4.jpg"/>
+		<img src="images/certificaties/Elzbieta5.jpg"/>
+		<img src="images/certificaties/Elzbieta6.jpg"/>
+		<img src="images/certificaties/Elzbieta7.jpg"/>
+		<img src="images/certificaties/Elzbieta8.jpg"/>
+		<img src="images/certificaties/Elzbieta9.jpg"/>
+		<img src="images/certificaties/Elzbieta10.jpg"/>
+		<img src="images/certificaties/Elzbieta11.jpg"/>
+		<img src="images/certificaties/Elzbieta12.jpg"/>
+		<img src="images/certificaties/Elzbieta13.jpg"/>
+		<img src="images/certificaties/Elzbieta14.jpg"/>
+		<img src="images/certificaties/Elzbieta15.jpg"/>
+
+	</div>
+		<h3>Certyfikaty Justyny Kryger:</h3>
+	<div class="certificaties">
+		<img style="position:absolute; z-index:-1; height:250px; margin:0; padding:0;" src="images/tlo1.jpg"/>
+		<img src="images/certificaties/Justyna1.jpg"/>
+	</div>
+
+	<script>
+		function myMap() {
+		var mapProp= {
+			center:new google.maps.LatLng(51.508742,-0.120850),
+			zoom:5,
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+	</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+	</section>
+
+	<footer>
+		<div class="horizontal_line2"></div>
+		<p>Elżbieta Kryger tel. <span id="tel">508 957 750</span></p>
+		<div class="horizontal_line2"></div>
+	</footer>
+
+</body>
+</html>

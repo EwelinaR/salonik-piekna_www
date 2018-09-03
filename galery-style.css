@@ -1,0 +1,64 @@
+#img_container{
+	height:600px;
+	float:left;
+	background-color:white;
+	width:70%;
+}
+
+#shortcuts{
+	overflow-y: scroll;
+	float:right;
+	width:30%;
+	height:600px;				/*zmienic*/
+	background-color:grey;
+}
+
+.shortcut_left{
+	margin:10px auto 0px 10px ;
+	float:left;
+	width:40%;
+	height:100px;				/*zmienic*/
+	background-color:#bababc;
+	display:table;
+}
+
+.shortcut_right{
+	margin:10px 10px 0 auto;
+	float:right;
+	width:40%;
+	height:100px;				/*zmieniæ*/
+	background-color:#bababc;
+	display:table;
+}
+
+.img_container{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#img_container  p{
+text-align: center;
+background-color:white;
+padding-left:10%;
+padding-right:10%;
+}
+
+#shortcuts img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width:100%;
+	max-height:100px;
+}
+
+.first_right{
+	margin-top:50px;
+}
+
+#main_photo{
+	 display:block;
+	 margin:auto;
+	 margin-top:2%;
+	max-height:90%;
+	max-width:100%;
+}

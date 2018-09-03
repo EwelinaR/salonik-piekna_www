@@ -1,0 +1,95 @@
+#main-box{
+	padding-left:5%;
+	padding-right:5%;
+	width:90%;
+	/*width:800px;*/
+	background: -webkit-linear-gradient(left, #bababc 0%,grey 4%, grey 96%, #bababc 100%); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #bababc 0%,grey 4%, grey 96%, #bababc 100%); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #bababc 0%,grey 4%, grey 96%, #bababc 100%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #bababc 0%,grey 4%, grey 96%, #bababc 100%); /* Standard syntax */
+	background-color:grey;
+	display:flex;
+	/*min-width:764px;*/
+}
+
+
+#text_box{
+	margin:2% 0 2% 0;
+	text-align:center;
+	min-width:300px;
+	max-width:1000px;
+	width:60%;
+}
+
+#center{
+	display:inline-block;
+	margin-top:2%;
+}
+
+h1{
+	font-family: 'Acme';
+	margin:10% 1% 4% 1%;
+	font-size:35px;
+	display:inherit;
+}
+
+h2{
+	padding-top:10px;
+	font-family: 'Acme';
+	font-size:20px;
+	font-style:italic;
+}
+
+p{
+	margin:3px;
+}
+
+#text_box p{
+	line-height:25px;
+	padding-bottom:5%;
+	font-size:16px;
+}
+
+#text_box span{
+	font-family: 'Georgia';
+	font-size:17px;
+}
+
+#img{
+	/*width:50%;*/
+	margin:0;
+	
+	width:400px;
+	padding:0;
+	
+}
+
+
+
+/*---------------------*/
+
+.happening{
+	float:left;
+	background-image:url("images/wakacje_promocja.jpg");
+	margin:5%;
+	width:415px;
+}
+
+#rand_treatment{
+	float:right;
+	margin:5%;
+	margin-left:0;
+	padding:3%;
+	width:45%;
+    text-shadow: 1px 1px 4px gray;	
+	font-weight:bold;
+}
+
+#rand_treatment img{
+	margin:2% 5%;
+	width:40%;
+}
+
+
+
+

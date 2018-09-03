@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl PL">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Salonik - galeria</title>
+	
+	<meta name="description" content="Salonik zdrowia i urody Elżbiety Kryger jest najlepszym salonikiem ever!!" />
+	<meta name="keywords" content="gabinet kosmetyczny, salonik zdrowia i urody, Elżbieta Kryger, kosmetyki, kosmetyczka Bydgoszcz, kosmetyczka Fordon, makijaż"/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'/>					<!--niepotrzebne usunąć-->
+	<link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css?family=Bilbo' rel='stylesheet'/>
+
+	<link rel="icon" href="images/flower.jpg" type="image/x-icon"/>
+    <script src="javaScript.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="cennik-style.css" type="text/css"/>
+
+</head>
+<body>
+	<nav id="head">
+		<div class="center">
+			<div class="menu_cell"><a href="index.html">HOME</a></div>
+			<div class="between_menu_cells"></div>
+			<div class="menu_cell"><a href="o_firmie.html">O FIRMIE</a></div>
+			<div class="between_menu_cells"></div>
+			<div class="menu_cell"><a href="galery.html">GALERIA</a></div>
+			<div class="between_menu_cells"></div>
+			<div class="menu_cell"><a href="cennik.html" id="choosen_menu">CENNIK</a></div>
+		</div>
+	</nav>
+	<section>
+	
+	<h2>CENNIK</h2>
+	
+	<div style="float:left; width:50%;">
+		<div id="bookmarks">
+			<!--<p id="0" class="bookmark" onclick="showPrice(0)">TWARZ</p>-->
+			<p id="1"class="bookmark" onclick="showPrice(0)">MANICURE/PEDICURE</p>
+			<p id="2"class="bookmark" onclick="showPrice(1)">CIAŁO</p>
+			<p id="3" class="bookmark" onclick="showPrice(2)">MAKIJAŻ</p>
+			<p id="4" class="bookmark" onclick="showPrice(3)">STYLIZACJA</p>
+		</div>
+	
+	<!--maski oczyszczanie - twarz-->
+		<div class="border" id="price_list">
+			<div>
+				<p class="price_main_name">manicure</p><p class="price_null">&nbsp;</p>
+				<p class="price_name">- podstawowe</p><p class="price">20zł</p>
+				<p class="price_name">- hybrydowe</p><p class="price">50zł</p>
+				<p class="price_name">- dekoracyjny</p><p class="price">30-35zł</p>
+				<p class="price_main_name">pedicure</p><p class="price_null">&nbsp;</p>
+				<p class="price_name">- podstawowe</p><p class="price">20zł</p>
+				<p class="price_name">- hybrydowe</p><p class="price">50zł</p>
+				<p class="price_main_name">usuwanie odcisków</p><p class="price_null">70zł</p>
+
+			</div>
+
+		</div>
+	</div>
+	
+	<div class="happening">
+		<img style="width:100%" src="images/promocja.png"/>
+			<!--<h1>Promocja wakacyjna</h1>
+			<p style="padding-left:120px; font-size:26px; font-style:italic;"> Bądź piękna latem!</p>
+			<span style="margin-left:15px; padding-bottom:50px; font-size:35px;">-30%</span> na zabiegi nawilżające na twarz i ciało -->
+		</div>
+	</section>
+
+	<footer>
+		<div class="horizontal_line2"></div>
+		<p>Elżbieta Kryger tel. <span id="tel">508 957 750</span></p>
+		<div class="horizontal_line2"></div>
+	</footer>
+
+</body>
+</html>
