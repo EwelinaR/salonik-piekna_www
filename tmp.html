@@ -1,0 +1,14 @@
+<script language="javascript" src="js/jquery-1.3.2.min.js"></script>
+<script language="javascript">
+
+$(document).ready(function() {
+    var i = 0;
+    $(window).resize(function() {
+        i++;
+        $("#status").append(i + " ");
+    });
+});
+
+</script>
+
+<div id="status"></div>

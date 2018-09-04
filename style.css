@@ -11,7 +11,7 @@ nav{
 	top:0;	
 	left:0;
 	width:100%;
-	min-width:800px;
+	#min-width:800px;
 	background-color:pink;
 	font-family: 'Allan';					/*niepotrzebne usun¹æ*/
 	font-family: 'Architects Daughter';
@@ -29,7 +29,7 @@ nav{
 	border:0.5px solid #a6a6a6;
 }
 
-.horizontal_line{
+.horizontal_line{	/*rozwijane menu*/
 	margin:0;
 	height:1.5px;
 	width:100%;
@@ -53,10 +53,10 @@ nav{
 .menu_cell{
 	float:left;
 	position:relative;
-	display:inline-block;
+	margin:0 auto;
 }
 
-#popup_menu{
+#popup_menu{				/*rozwijane menu*/
 	background-color:yellow;
 	z-index:1;
 	#visibility:hidden;
@@ -68,11 +68,11 @@ nav{
 	
 }
 
-#popup_menu a{
+#popup_menu a{			/*rozwijane menu*/
 	display:block;
 }
 
-#menu_cell:hover #popup_menu{
+#menu_cell:hover #popup_menu{		/*rozwijane menu*/
 	display:block;
 	}
 
@@ -81,11 +81,14 @@ nav{
 	color:black;
 	font-size:16px;
 	display:block;
-	padding: 12px 15px;
+	padding: 10px 10px;
 	margin:0;
+	text-align: center;
 }
 
-.menu_cell:hover #popup_menu {display: block;}
+.menu_cell:hover #popup_menu {
+	display: block;
+}
 
 
 #choosen_menu{
