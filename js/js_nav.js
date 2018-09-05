@@ -1,5 +1,7 @@
+//nie u¿ywane wszystko
 
-function smallDevice(){
+
+/*function smallDevice(){
 	$(".menu_cell").width('40%');
 	$("#mid_line").hide();
 }
@@ -35,5 +37,19 @@ $(document).ready(function() {
 			nav_mode = 1;
 		}
     });
+});*/
+
+
+$(document).ready(function() {
+    var window_height = $(window).height();
+	
+	$('.main_content_height').height(window_height-$('nav').height());
+
+    $(window).resize(function() {
+		if(window_height != $(window).height()){
+			$('.main_content_height').height($(window).height()-$('nav').height());
+
+		}
+	});
 });
 
